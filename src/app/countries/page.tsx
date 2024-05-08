@@ -1,4 +1,3 @@
-import { germany } from "@/assets/images";
 import { Card, Select } from "flowbite-react";
 import Link from "next/link";
 import React from "react";

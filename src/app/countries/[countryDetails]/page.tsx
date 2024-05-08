@@ -1,21 +1,14 @@
-import { Button } from "flowbite-react";
 import Link from "next/link";
 import React from "react";
 
-const CountryDetails = ({
-	params,
-}: {
-	params: {
-		CountryDetails: string;
-	};
-}) => {
+const CountryDetails = () => {
 	return (
 		<div
 			className="bg-white dark:bg-bodyBackground dark:text-white container mx-auto p-4 h-screen"
 			style={{ paddingTop: "110px" }}>
 			<div>
 				<Link
-				className="dark:bg-slate-600"
+					className="dark:bg-slate-600"
 					href="/countries"
 					style={{
 						borderColor: "#000000",

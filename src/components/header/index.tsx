@@ -1,9 +1,8 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Button, Navbar } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import Link from "next/link";
-import { Span } from "next/dist/trace";
 
 const Header = () => {
 	const [theme, setTheme] = useState("light");
@@ -30,7 +29,6 @@ const Header = () => {
 				rounded
 				className="dark:bg-navBackground container mx-auto p-4">
 				<Navbar.Brand href="/">
-					{/* <img src="/favicon.png" className="mr-3 h-6 sm:h-9" alt="" /> */}
 					<span className="self-center whitespace-nowrap text-24 font-semibold dark:text-white">
 						Where in the world?
 					</span>
